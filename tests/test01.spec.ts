@@ -4,6 +4,6 @@ import { test, expect } from "@chromatic-com/playwright";
 test("Homepage", async ({ page }) => {  
   await page.goto("https://www.npmjs.com/package/typescript");  
   
-  await expect(page).toHaveTitle("typescript - npm");  
+  await expect(page).toHaveTitle("typescript - np");  
   // ...
 });
